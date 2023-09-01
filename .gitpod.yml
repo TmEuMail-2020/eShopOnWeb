@@ -2,7 +2,8 @@ image: gitpod/workspace-dotnet
 
 tasks:
   - init: | 
-      docker-compose pull
+      docker-compose build
+#      docker-compose pull
 
 # all branches to do prebuild
 github:
